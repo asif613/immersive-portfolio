@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md Asif - 3D Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 3D Background Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Top Fixed Navigation -->
+    <nav class="nav-container">
+        <a href="#work" class="nav-item">WORK</a>
+        <a href="#contact" class="nav-item">CONTACT</a>
+    </nav>
+
+    <!-- Content Sections Wrapper -->
+    <div class="content-wrapper">
+        
+        <!-- Hero Section -->
+        <section class="section">
+            <h1 class="hero-title">MD<br>ASIF</h1>
+            <p class="hero-subtitle">B Tech • Full stack Developer • Makaut University</p>
+            <p class="hero-location">Gaya,Bihar, India</p>
+        </section>
+
+        <!-- About Section -->
+        <section class="section" id="work">
+            <div class="glass-card">
+                <h2>About</h2>
+                <p>Graduated from MAKAUT University, passionate about Full Stack Web development, coding, and building practical technology projects. Interested in creating modern and visually engaging digital experiences.</p>
+                
+                <h3 style="margin-top: 18px; font-size: 16px; color: #fff;">Education</h3>
+                <p><strong>MAKAUT University</strong><br>Kolkata, India</p>
+            </div>
+        </section>
+
+        <!-- Project 1 -->
+        <section class="section">
+            <div class="glass-card">
+                <span style="font-size: 12px; color: #00d2ff; font-weight: 600; letter-spacing: 1px;">WEB DEVELOPMENT</span>
+                <h2>Portfolio & Web Applications</h2>
+                <ul>
+                    <li>Modern and responsive UI design</li>
+                    <li>Interactive components and smooth animations</li>
+                    <li>Clean and optimized codebase</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section">
+            <div class="glass-card">
+                <h2>Skills</h2>
+                <div class="skill-item">HTML <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 90%;"></div></div></div>
+                <div class="skill-item">CSS <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div></div>
+                <div class="skill-item">JavaScript <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 80%;"></div></div></div>
+                <div class="skill-item">React <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 75%;"></div></div></div>
+                <div class="skill-item">Python <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 70%;"></div></div></div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section" id="contact">
+            <div class="glass-card">
+                <h2>Let's work together</h2>
+                <p>Gaya, Bihar, India</p>
+                <a href="mailto:mdasifbara786@gmail.com" class="email-link">mdasifbara786@gmail.com</a>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Three.js Library and Script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
